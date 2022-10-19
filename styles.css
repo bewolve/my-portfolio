@@ -43,12 +43,13 @@ a {
   border-radius: 20px;
   margin-left: auto;
   border: 0px;
+  transition: opacity 0.3s;
 }
 
 .navbar .ctn:hover {
-  background-color: #EEEBDD;
-  color: #CE1212;
+  opacity: 0.8;
 }
+
 
 /* END NAVBAR STYLING  */
 
@@ -80,7 +81,7 @@ a {
 
 .portfolio-title {
 
-  font-size: 50px;
+  font-size: 48px;
 }
 
 .portfolio-desc {
