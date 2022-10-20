@@ -112,21 +112,30 @@ a {
   color: #EEEBDD;
   padding: 5px;
   border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .download-cv:hover {
-  background-color: #CE1212;
+  background-color: #1C6758;
 }
 
 
-.social-btn:hover {
-  color: #CE1212;
+.fa-facebook-square:hover {
+  color: #3b5998;
 }
 
-.btn {
-  transition: background-color 0.3s;
+.fa-instagram:hover {
+  color: #cd486b;
+}
+
+.fa-youtube-play:hover {
+  color: #FF0000;
+}
+
+.social-btn {
   transition: color 0.3s;
 }
+
 
 /* END HERO SECTION COMPELETELY  */
 
